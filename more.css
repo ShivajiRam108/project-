@@ -1,0 +1,270 @@
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+   height: 100vh;
+   width: 100%;
+}
+body{
+    background-color: #909090;
+    height: 100vh; 
+    /* width: 100%;   */
+}
+/* *******************  header    **************8*/
+.header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    padding: 10px;
+    /* text-align: center; */
+    justify-content: space-between;
+    /* margin: 10px; */
+    background-color: lightgray;
+    color: #fff;
+}
+
+.search{
+    margin: 7px 10px 0px;
+    font-size: 20px;
+   
+}
+.logo{
+    width: 40%;
+    margin-left: 60px;
+
+    /* border-radius: 50%; */
+}
+.logo>img{
+    border-radius: 50%;
+}
+.fa{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+}
+img{
+  height: 50px;
+  cursor: pointer;
+}
+.head2{
+  margin: 50px 50px 0px;
+  display: flex;
+}
+.f1{
+   font-size: 25px;
+}
+/* ***************** imground  ************** */
+.imground{
+   display: flex;
+   gap: 10px;
+   flex-wrap: wrap;
+   overflow: hidden;
+}
+.imground>div>img{
+   width: 200px;
+   height: 200px;
+   display: flex;
+   text-align: center;
+   border-radius: 50%; 
+}
+/****************** child *************************** */
+.child3{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    align-items: center;
+}
+.child{
+    border-radius: 50px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    border: 2px solid;
+     width: 300px;
+    height: 50px;
+}
+.ii1{
+    font-size: 20px;
+    margin-left: 20px;
+    /* height: auto; */
+ }
+button{
+    border: none;
+    background-color: #fff;
+}
+button>a{
+    text-decoration: none;
+    color: black;
+
+}
+a{
+    background-color: transparent;  
+}
+.profil{
+    gap: 10px;
+}
+/******************* line ************************* */
+.line{
+    display: flex;
+    gap: 20px;
+    /* overflow-x:scroll; */
+    /* margin-left: 100px;   */
+}
+.line>section>option{
+    display: flex;
+}
+.line>:hover{
+    text-decoration: underline;
+}
+.line>button>a{
+    display: flex;
+}
+select{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+/***************** head2  ****************************/
+.head2{
+   margin: 50px 50px 0px;
+   display: flex;
+}
+.head2>a{
+      text-decoration: none;
+      font-size: 20px;
+      color: red;
+      width: 60px;
+      height: 30px;
+      text-align: center;
+      /* border: 1px solid; */
+}
+.head2>a:hover{
+    background-color: red;
+    color: black;
+}
+
+.f1{
+    font-size: 25px;
+}
+/************************************** imageround  ************************/
+.imground{
+    overflow-x: scroll;
+    display: flex;
+    gap: 13px;
+
+}
+.img1:hover{
+     transform: scale(0.9,0.89);
+    border-radius: 50%;
+    transition: 0.4s;
+    box-shadow: 4px 5px 10px black;
+
+}
+.img2:hover{
+    transform: scale(0.9,0.89);
+   border-radius: 50%;
+   transition: 0.4s;
+}
+.img3:hover{
+    transform: scale(0.9,0.89);
+   border-radius: 50%;
+   transition: 0.4s;
+}
+.img4:hover{
+    transform: scale(0.9,0.89);
+   border-radius: 50%;
+   transition: 0.4s;
+}
+.img5:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img6:hover{
+    transform: scale(0.9,0.89);
+    transition: 0.4s; 
+}
+.img7:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img8:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img9:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img10:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img11:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img12:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img13:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img14:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img15:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img16:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img17:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img18:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img19:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img20:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img21:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img22:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img23:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img24:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img25:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img26:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}

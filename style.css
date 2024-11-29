@@ -1,0 +1,646 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+   height: 100vh;
+   width: 100%;
+}
+body{
+    background-color: #909090;
+    height: 100vh; 
+    /* width: 100%;   */
+}
+/******************** haeder  ******************/
+.header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    padding: 10px;
+    /* text-align: center; */
+    justify-content: space-between;
+    /* margin: 10px; */
+    background-color: lightgray;
+    color: #fff;
+}
+
+.search{
+    margin: 7px 10px 0px;
+    font-size: 20px;
+    /* style="margin-top: 7px; margin-left: 10px;font-size: 20px;  " */
+}
+.logo{
+    width: 40%;
+    margin-left: 60px;
+
+    /* border-radius: 50%; */
+}
+.logo>img{
+    border-radius: 50%;
+}
+.fa{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+}
+img{
+  height: 50px;
+  cursor: pointer;
+}
+.child3{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    align-items: center;
+}
+.child{
+    border-radius: 50px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    border: 2px solid;
+     width: 300px;
+    height: 50px;
+}
+.profil{
+    gap: 10px;
+}
+.ii1{
+    font-size: 20px;
+    margin-left: 20px;
+    /* height: auto; */
+ }
+ /***************************** line ****************** */
+button{
+    border: none;
+    background-color: #fff;
+}
+button>a{
+    text-decoration: none;
+    color: black;
+
+}
+a{
+    background-color: transparent;  
+}
+
+.line{
+    display: flex;
+    gap: 20px;
+    /* overflow-x:scroll; */
+    /* margin-left: 100px;   */
+}
+.line>section>option{
+    display: flex;
+}
+.line>:hover{
+    text-decoration: underline;
+}
+.line>button>a{
+    display: flex;
+}
+select{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+/************************ head2************************ */
+.head2{
+   margin: 50px 50px 0px;
+}
+.head2>a{
+      text-decoration: none;
+      font-size: 20px;
+      color: red;
+      width: 60px;
+      height: 30px;
+      text-align: center;
+      /* border: 1px solid; */
+}
+.head2>a:hover{
+    background-color: red;
+    color: black;
+}
+
+.f1{
+    font-size: 25px;
+
+}
+/********************** imageround  **********************/
+.imground{
+    overflow-x: scroll;
+    display: flex;
+    gap: 13px;
+
+}
+.img1:hover{
+     transform: scale(0.9,0.89);
+    border-radius: 50%;
+    transition: 0.4s;
+    box-shadow: 4px 5px 10px black;
+
+}
+.img2:hover{
+    transform: scale(0.9,0.89);
+   border-radius: 50%;
+   transition: 0.4s;
+}
+.img3:hover{
+    transform: scale(0.9,0.89);
+   border-radius: 50%;
+   transition: 0.4s;
+}
+.img4:hover{
+    transform: scale(0.9,0.89);
+   border-radius: 50%;
+   transition: 0.4s;
+}
+.img5:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img6:hover{
+    transform: scale(0.9,0.89);
+    transition: 0.4s; 
+}
+.img7:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img8:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img9:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img10:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img11:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img12:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img13:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img14:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img15:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img16:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img17:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img18:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img19:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img20:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img21:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img22:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img23:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img24:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img25:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.img26:hover{
+    transform: scale(0.9,0.89); 
+    transition: 0.4s;
+}
+.imground>div>a>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+ }
+
+.imground>div>img:hover{
+    
+    /* background-color: lightgrey;
+    filter: grayscale(10); */
+    box-shadow: inset 20px 50px 0px;
+    /* box-shadow: inset 30px 30px 0px  black; */
+}
+.imground>div>img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    border-radius: 50%; 
+}
+.p1{
+    text-align: center;
+    margin-top: 20px;
+}
+/******************** child-2 (********************* */
+.child-2{
+    width: 80%;
+    /* height: 80%; */
+    border: 1px solid ;
+    display: inline-block;
+    margin-left: 10%;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px;
+}
+/************************ child-4 ****************** */
+.child-4{
+    width: 80%;
+    height: 15%;
+    border: 1px solid ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 10%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px; 
+}
+.playstore>img{
+    font-size: 50px;
+    width: 130px;
+    height: 60px;
+    margin-top: -10px;
+}
+.appstore>img{
+    width: 120px;
+    height: 35px;
+}
+.logo2{
+    padding: 20px;
+}
+.appstore{
+    padding: 20px;    
+}
+.playstore{
+    padding: 20px; 
+    font-size: 50px;  
+}
+
+/************************* grid-container *******************************8 */
+.grid-container {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three equal-width columns */
+    grid-template-rows: 1fr 1fr ; /* Four equal-height rows */
+    gap: 10px; 
+  }
+  span{
+    font-size: 12px;
+  }
+  h4{
+    cursor: pointer;
+  }
+  .box {
+    /* background-color: black;  */
+    color: black;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 5px; /* Optional: Adds rounded corners */
+  }
+  /********************************* child-container  **************************/
+ .child-container{
+    width: 80%;
+    /* height: 10%; */
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid;
+   padding: 20px;
+  }
+.child-6{
+    gap: 10px;
+  }
+.child-6>a{
+    text-decoration: none;
+    color: black;
+    width: 50px;
+    height: 50px;
+    padding: 17px;
+  }
+  /************************** child-8  **************************/
+.child-8{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+  }
+.ss{
+    padding: 20px;
+    font-size: 12px;
+}  
+.p4{
+    padding: 20px;
+    font-size: 12px;
+}
+.child-7>i{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    border-radius:50%;
+    padding: 12px;
+}
+.line{
+    /* overflow-x: hidden; */
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.fff>input{
+    max-width: 200px;
+}
+/* **********************media quarie 1************************/
+
+@media screen  and (max-width: 640px ){
+    .appstore{
+        display: none;
+
+    }.logo{
+        margin: 0px;
+    }
+    .playstore{
+        display: none;
+    }
+    .grid-container{
+        display: block;
+    } 
+   .ii1,.input{
+    font-size: 15px;
+   }
+   .line{
+    overflow-x: scroll;
+    scrollbar-width: none;
+   }
+   .child{
+    /* border: 1px solid black; */
+    height: 35px;
+    margin-top: 10px;
+   }
+   
+    .profil,.rupe{
+        display: none;
+    }
+    .line{
+        font-size: 10px;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    }
+    .imground>div>img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .imground>div>a>img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .f1>img{
+        margin-top: 10px;
+       width: 30px;
+       height: 30px;
+    }
+    .head2>a{
+        font-size: 14px;
+    }
+    .line>a>option{
+        margin: 0px;
+        overflow-x: scroll;
+
+    }
+    .p1{
+        font-size: 10px;
+    }
+   
+    img,.title,.subtitle{
+        font-size: 20px;
+        width: 20px;
+        height: 20px;
+    }
+    .fff>input{
+        max-width: 100px;
+    }
+    
+
+    
+}
+/************** media quarie 2 **********************/
+
+@media screen and (max-width : 600px) {
+    .play2{
+        font-size: 15px;
+        width: 350px;
+
+    }
+    .i{
+        font-size: 15px;
+    
+      
+    }
+    .f1>img{
+        font-size: 15px;
+    }
+    #title,.subtitle{
+        display: none;
+    }
+    .line{
+        overflow-x: scroll;
+        scrollbar-width:none;
+    }
+    .fff>input{
+        max-width: 70px;
+        margin-left: 15px;
+        padding-right: 8px;
+    }
+  
+   
+   
+    .bar>span{
+        height: 20px;
+        width: 2px;
+        font-size: 13px;
+        gap: 1px;
+        display: flex;
+        /* gap: 2px;   */
+    }
+   
+   .bar>.mute{
+    font-size: 15px;
+   }
+.icon{
+    width: 150px;
+    display: flex;
+    /* gap: 5px; */
+
+}
+.child-7,.child-6 {
+    display: block;
+    font-size: 10px;
+
+    
+}
+}
+.play2{
+  display: flex;
+  justify-content: space-around;
+  /* padding: 0px 10px; */
+  position: fixed;
+  bottom: 0px;
+  z-index: 1000;
+  width: 100%;
+  /* top: 90%; */
+  background-color: lightyellow;
+  height: 10%;
+  color: #654326;
+  /* position: sticky; */
+  
+}
+/****************************** play2 **********************8888 */
+.wave1{
+    width: 5px;
+    height: 15px;
+    background-color: red;
+    margin: 3px ;
+    gap: 5px;
+    border: 10px 10px 0px 0px;
+    animation: wave 0.5s 1.5s infinite;
+}
+.wave1:nth-child(2) {
+    height: 13px;
+    margin-right: 3.5px;
+    animation-delay: 0.4s;
+}
+.wave1:nth-child(3) {
+    height: 8px;
+    animation-delay: 0.8s;
+}
+/********************** keyframe  ********************8*/
+@keyframes wave {
+    0%{
+       height: 10px;
+    }
+    50%{ height: 15px;
+    }
+    100%{
+        height: 10px;
+    }   
+}
+.f1{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+    /* margin-top: 30px; */
+}
+/* .c1{
+    display: flex;
+    align-self: center;
+} */
+img{
+    width:55px ;
+    height: 55px;
+    border-radius: 10px;
+}
+.subtitle{
+    gap: 10px;
+    font-size: 13px;
+    color: #654326;
+    width: 100%;
+}
+.icon{
+    font-size: 35px;
+    color:black;
+    outline: none;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+   
+}
+.i{
+    cursor: pointer;
+    outline: none;
+    font-size: 1.5em;
+}
+/* #rock .i{
+    font-size: 30px;
+    margin-left: 5px;
+    gap: 10px;
+} */
+.span3{
+    font-size: 20px;
+    gap: 10px;
+    margin-left: 10px;
+    /* margin-top: 2px; */
+}
+.mute{
+    font-size: 33px;
+    gap: 10px;
+    color: black;
+    margin-left: 5px;
+}
+.fff{
+    display: flex;
+    margin-left: 11px;
+   
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
